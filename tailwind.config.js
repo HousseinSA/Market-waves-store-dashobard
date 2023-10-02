@@ -21,11 +21,9 @@ module.exports = {
         "grayscale-gray": "#9fa2b4",
         black: "#000",
         gray: "#fefefe",
-        lightgray: "#d2d2d2",
         silver: "#b9b9b9",
-        cornflowerblue: "#1a6bba",
-        lightsteelblue: "#c3dffa",
-        darkslateblue: "#2a4178",
+        lightgray: "#dcd4ce",
+        peru: "#bf743b",
       },
       spacing: {},
       fontFamily: {
@@ -33,7 +31,6 @@ module.exports = {
       },
       borderRadius: {
         mini: "15px",
-        "3xs": "10px",
       },
     },
     fontSize: {
@@ -52,6 +49,9 @@ module.exports = {
       },
       sm: {
         max: "420px",
+      },
+      mq666: {
+        raw: "screen and (max-width: 666px)",
       },
     },
   },

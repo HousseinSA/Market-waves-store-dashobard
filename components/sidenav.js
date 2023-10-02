@@ -60,6 +60,10 @@ const Sidenav = () => {
           <Link href={"/settings"}>Settings</Link>
         </div>
       </div>
+      <div className="self-stretch rounded-mini bg-lightgray overflow-hidden flex flex-row items-center justify-start p-[0.31rem] text-[0.75rem] md:hidden">
+        <div className="flex flex-row items-center justify-start py-[0rem] px-[0.31rem] gap-[0.19rem] md:flex">
+          <div className="flex flex-col items-start justify-center relative md:hidden">
+            <img
       <div className="self-stretch flex flex-row items-center justify-center relative gap-[0.63rem] text-[0.75rem] text-cornflowerblue">
         <div className="rounded-3xs bg-lightsteelblue h-[2.19rem] overflow-hidden z-[0]" />
         <div className="my-0 mx-[!important] absolute top-[calc(50%_-_8.5px)] left-[calc(50%_-_51.78px)] w-[6.46rem] flex flex-row items-start justify-start gap-[0.19rem] z-[1]">
@@ -96,7 +100,7 @@ const Sidenav = () => {
           <div className="relative font-semibold">Connect Now</div>
         </div>
       </div>
-      <div className="self-stretch relative text-[0.75rem] leading-[1rem] font-medium text-silver text-center">
+      <div className="self-stretch relative text-[0.75rem] leading-[1rem] font-medium text-silver text-center md:hidden">
         <p className="m-0">{`Terms & Services`}</p>
         <p className="m-0">Privacy Policy</p>
       </div>

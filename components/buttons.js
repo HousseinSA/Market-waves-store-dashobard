@@ -9,7 +9,7 @@ const Buttons = () => {
           <img
             className="relative w-[3.34rem] h-[2.65rem]"
             alt=""
-            src="/vector16.svg"
+            src="/vector14.svg"
           />
           <div className="relative tracking-[1px] font-semibold">67</div>
         </div>
@@ -22,7 +22,7 @@ const Buttons = () => {
           <img
             className="relative w-[2.97rem] h-[3.85rem]"
             alt=""
-            src="/vector17.svg"
+            src="/vector16.svg"
           />
           <div className="relative tracking-[1px] font-semibold">09</div>
         </div>
@@ -35,7 +35,7 @@ const Buttons = () => {
           <img
             className="self-stretch relative max-h-full w-[3.3rem]"
             alt=""
-            src="/vector18.svg"
+            src="/vector17.svg"
           />
           <div className="relative tracking-[1px] font-semibold">35</div>
         </div>

@@ -12,31 +12,31 @@ const Inbox = () => {
       </div>
       <div className="self-stretch flex flex-row items-center justify-center z-[2]">
         <img
-          className="flex-1 relative max-w-full overflow-hidden h-[0.14rem]"
+          className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
           src="/divider.svg"
         />
       </div>
-      <div className="self-stretch flex flex-row items-start justify-center py-[0rem] px-[5rem] gap-[2.44rem] z-[3]">
+      <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[3]">
         <div className="relative tracking-[0.2px] leading-[1.25rem] font-medium">
           Waiting for order#12345
         </div>
-        <div className="flex-1 relative tracking-[0.2px] leading-[1.25rem] font-medium text-grayscale-gray text-right">
+        <div className="relative tracking-[0.2px] leading-[1.25rem] font-medium text-grayscale-gray text-right">
           4:39
         </div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center z-[4]">
         <img
-          className="flex-1 relative max-w-full overflow-hidden h-[0.14rem]"
+          className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
           src="/divider1.svg"
         />
       </div>
-      <div className="self-stretch flex flex-row items-start justify-center py-[0rem] px-[5rem] gap-[2.44rem] z-[5]">
+      <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[5]">
         <div className="relative tracking-[0.2px] leading-[1.25rem] font-medium">
           Customer support id#22234
         </div>
-        <div className="flex-1 relative tracking-[0.2px] leading-[1.25rem] font-medium text-grayscale-gray text-right md:flex-1">
+        <div className="relative tracking-[0.2px] leading-[1.25rem] font-medium text-grayscale-gray text-right inline-block w-[1.94rem] h-[0.06rem] shrink-0 md:flex-1">
           11:07
         </div>
       </div>
