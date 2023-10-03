@@ -7,11 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        main_color:'#BF743B',
+        main_color: "#BF743B",
         ghostwhite: {
-          "100": "#f6f4fd",
-          "200": "#f0f1f7",
+          100: "#f6f4fd",
+          200: "#f0f1f7",
         },
+        background1:"#d6884d",
+        background2:"#bf743b",
+        white: "#fff",
         "grayscale-white": "#fff",
         mediumseagreen: "#29cc97",
         "grayscale-black": "#252733",
@@ -28,6 +31,9 @@ module.exports = {
       spacing: {},
       fontFamily: {
         poppins: "Poppins",
+      },
+      fontSize: {
+        inherit: "inherit",
       },
       borderRadius: {
         mini: "15px",
@@ -47,6 +53,9 @@ module.exports = {
       md: {
         max: "960px",
       },
+      mq612: {
+        raw: "screen and (max-width: 612px)",
+      },
       sm: {
         max: "420px",
       },
@@ -58,4 +67,4 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-};
+}

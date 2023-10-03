@@ -1,4 +1,6 @@
 const Inbox = () => {
+  const DashobardImagePath = "/dashboard_images"
+
   return (
     <div className="self-stretch rounded-mini flex flex-col items-center justify-center relative gap-[0.63rem] text-left text-[0.88rem] text-grayscale-black font-poppins md:self-stretch md:w-auto md:h-auto md:flex-col">
       <div className="absolute my-0 mx-[!important] w-[100.64%] top-[-0.01rem] right-[-0.24%] left-[-0.4%] rounded-mini bg-gray shadow-[0px_2px_10px_rgba(0,_0,_0,_0.25)] h-[7.31rem] z-[0]" />
@@ -14,7 +16,7 @@ const Inbox = () => {
         <img
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
-          src="/divider.svg"
+          src={DashobardImagePath+"/divider.svg"}
         />
       </div>
       <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[3]">
@@ -29,7 +31,7 @@ const Inbox = () => {
         <img
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
-          src="/divider1.svg"
+          src={DashobardImagePath+"/divider1.svg"}
         />
       </div>
       <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[5]">
@@ -41,7 +43,7 @@ const Inbox = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Inbox;
+export default Inbox
