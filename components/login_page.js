@@ -1,4 +1,5 @@
 import Image from "next/image"
+import {signIn} from "next-auth/react"
 const LoginPage = () => {
   const loginPageImages = "/login_page_image"
   return (
@@ -55,17 +56,19 @@ const LoginPage = () => {
               />
             </div>
           </div>
-          <div className="self-stretch rounded bg-white shadow-[0px_4px_4px_rgba(0,_0,_0,_0.3)] flex flex-row items-center justify-center py-[0.75rem] px-[7.69rem] gap-[0.94rem] mq612:pl-[0rem] mq612:pr-[0rem] mq612:box-border">
+          <div
+            className="self-stretch rounded hover:cursor-pointer bg-white shadow-[0px_4px_4px_rgba(0,_0,_0,_0.3)] flex flex-row items-center justify-center py-[0.75rem] px-[7.69rem] gap-[0.94rem] mq612:pl-[0rem] mq612:pr-[0rem] mq612:box-border"
+            onClick={() => signIn("google")}>
             <div className="flex flex-row items-center justify-center">
               <Image
                 className="relative w-[1.46rem] h-[1.5rem]"
                 alt=""
                 src={loginPageImages + "/vector5.svg"}
-                width={61.44}
+                width={23.36}
                 height={61.44}
               />
             </div>
-            <div className="relative leading-[1.25rem] uppercase font-semibold">
+            <div className="relative leading-[1.25rem] text-peru uppercase font-semibold">
               Login with google
             </div>
           </div>

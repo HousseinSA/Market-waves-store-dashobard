@@ -16,7 +16,7 @@ const Inbox = () => {
         <img
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
-          src={DashobardImagePath+"/divider.svg"}
+          src={DashobardImagePath + "/divider.svg"}
         />
       </div>
       <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[3]">
@@ -31,7 +31,7 @@ const Inbox = () => {
         <img
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
-          src={DashobardImagePath+"/divider1.svg"}
+          src={DashobardImagePath + "/divider1.svg"}
         />
       </div>
       <div className="self-stretch flex flex-row items-center justify-between py-[0rem] px-[5rem] z-[5]">

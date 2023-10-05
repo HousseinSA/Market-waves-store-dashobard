@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
-  const nextConfig = {
-    reactStrictMode: true,
-    typescript: {
-      ignoreBuildErrors: true,
-    },
-  }
+const nextConfig = {
+  images: {
+    domains: ["lh3.googleusercontent.com"], // Add the domain here
+  },
+  reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+}
 
-  module.exports = nextConfig
+module.exports = nextConfig

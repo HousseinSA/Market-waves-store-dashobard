@@ -1,10 +1,11 @@
-import React from "react";
-import Head from "next/head";
-import "../app/global.css";
+import React from "react"
+import Head from "next/head"
+import "../app/global.css"
+import {SessionProvider} from "next-auth/react"
 
-function MyApp({ Component, pageProps }) {
+function MyApp({Component, pageProps}) {
   return (
-    <React.Fragment>
+    <SessionProvider>
       <Head>
         <title>marketwavestroe-dashboard</title>
         <meta
@@ -13,8 +14,8 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
-    </React.Fragment>
-  );
+    </SessionProvider>
+  )
 }
 
-export default MyApp;
+export default MyApp
