@@ -4,18 +4,17 @@ import {signOut} from "next-auth/react"
 const Sidenav = () => {
   const DashobardImagePath = "/dashboard_images"
   return (
-    <div className="flex flex-col  items-center justify-start py-[0rem] px-[0.63rem] gap-[4.06rem] text-left text-[0.88rem] text-peru font-poppins md:flex md:w-auto md:[align-self:unset] md:flex-1 md:items-center md:justify-start md:pt-[3.13rem] md:px-[0rem] md:pb-[1.25rem] md:box-border mq666:self-stretch mq666:w-auto mq666:h-auto mq666:items-center mq666:justify-center">
+    <div className="flex flex-col items-center justify-center p-[1.25rem] gap-[4.06rem] text-left text-[0.88rem] text-main_color font-poppins">
       <Image
-        className="relative hover:cursor-pointer  w-[2.15rem] h-[2.6rem]"
+        className="relative  w-[2.15rem] h-[2.6rem]"
         alt=""
-        onClick={()=>signOut()}
         src={DashobardImagePath + "/vector.svg"}
         width={2.14}
         height={2.14}
       />
       <div className="self-stretch flex flex-row items-center justify-center gap-[0.63rem]">
         <Image
-          className="relative w-[1.04rem] h-[1.13rem]"
+           className="relative w-[2.15rem] h-[2.6rem]"
           alt=""
           src={DashobardImagePath + "/vector1.svg"}
           width={2.14}
@@ -107,3 +106,4 @@ const Sidenav = () => {
 }
 
 export default Sidenav
+ 
