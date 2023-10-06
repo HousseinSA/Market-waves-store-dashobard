@@ -61,10 +61,9 @@ const Sidenav = () => {
           <Link href={"/settings"}>Settings</Link>
         </div>
       </div>
-      <div className="self-stretch flex flex-row items-center justify-center relative gap-[0.63rem] text-[0.75rem] text-cornflowerblue">
-        <div className="rounded-3xs bg-lightsteelblue h-[2.19rem] overflow-hidden z-[0]" />
-        <div className="my-0 mx-[!important] absolute top-[calc(50%_-_8.5px)] left-[calc(50%_-_51.78px)] w-[6.46rem] flex flex-row items-start justify-start gap-[0.19rem] z-[1]">
-          <div className="flex-1 flex flex-col items-start justify-start relative gap-[0.63rem]">
+      <div className="self-stretch rounded-mini bg-lightgray overflow-hidden flex flex-row items-center justify-start py-[0.31rem] px-[0rem] text-[0.75rem] md:hidden">
+        <div className="flex flex-row items-center justify-start py-[0rem] pr-[0.44rem] pl-[0.13rem] gap-[0.19rem] md:flex">
+          <div className="flex flex-col items-start justify-center relative md:hidden">
             <Image
               className="relative w-[1.15rem] h-[1.13rem] z-[0]"
               alt=""
