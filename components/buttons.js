@@ -1,5 +1,4 @@
 const Buttons = () => {
-  const DashobardImagePath = "/dashboard_images"
   return (
     <div className="self-stretch overflow-hidden flex flex-row items-center justify-center gap-[1.25rem] text-left text-[1.13rem] text-grayscale-white font-poppins md:flex md:flex-col">
       <div className="flex-1 rounded-mini [background:linear-gradient(98.86deg,_#6baafc,_#305fec)] shadow-[0px_2px_10px_rgba(175,_137,_255,_0.15)] flex flex-col items-center justify-center p-[0.63rem] gap-[0.31rem] md:flex-[unset] md:self-stretch">
@@ -10,7 +9,7 @@ const Buttons = () => {
           <img
             className="relative w-[3.34rem] h-[2.65rem]"
             alt=""
-            src={DashobardImagePath+"/vector14.svg"}
+            src="/vector14.svg"
           />
           <div className="relative tracking-[1px] font-semibold">67</div>
         </div>
@@ -23,7 +22,7 @@ const Buttons = () => {
           <img
             className="relative w-[2.97rem] h-[3.85rem]"
             alt=""
-            src={DashobardImagePath+"/vector16.svg"}
+            src="/vector9.svg"
           />
           <div className="relative tracking-[1px] font-semibold">09</div>
         </div>
@@ -36,13 +35,13 @@ const Buttons = () => {
           <img
             className="self-stretch relative max-h-full w-[3.3rem]"
             alt=""
-            src={DashobardImagePath+"/vector17.svg"}
+            src="/vector10.svg"
           />
           <div className="relative tracking-[1px] font-semibold">35</div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Buttons
+export default Buttons;

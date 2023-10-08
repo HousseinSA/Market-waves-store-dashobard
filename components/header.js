@@ -9,7 +9,7 @@ const Header = () => {
         <div className="relative">total balance</div>
         <div className="relative text-[1.75rem] font-semibold">$ 45,365.00</div>
       </div>
-      <div className="flex-1 flex flex-row items-center justify-end gap-[1.88rem] md:hidden">
+      <div className="flex flex-row items-center justify-end md:flex sm:hidden mq666:hidden">
         <Image
           className="relative rounded-[50%] w-[3.13rem] h-[3.13rem] object-cover"
           alt=""
