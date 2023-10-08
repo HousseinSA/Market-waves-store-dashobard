@@ -1,3 +1,4 @@
+import Image from "next/image"
 const Buttons = () => {
   const DashobardImagePath = "/dashboard_images"
   return (
@@ -7,10 +8,12 @@ const Buttons = () => {
           <b className="relative">Shipped orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-center text-[3.75rem]">
-          <img
+          <Image
+            width={3.19}
+            height={3.19}
             className="relative w-[3.34rem] h-[2.65rem]"
             alt=""
-            src={DashobardImagePath+"/vector14.svg"}
+            src={DashobardImagePath + "/vector14.svg"}
           />
           <div className="relative tracking-[1px] font-semibold">67</div>
         </div>
@@ -20,10 +23,12 @@ const Buttons = () => {
           <b className="relative">Pending orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-right text-[3.75rem]">
-          <img
+          <Image
+            width={3.19}
+            height={3.19}
             className="relative w-[2.97rem] h-[3.85rem]"
             alt=""
-            src={DashobardImagePath+"/vector16.svg"}
+            src={DashobardImagePath + "/vector16.svg"}
           />
           <div className="relative tracking-[1px] font-semibold">09</div>
         </div>
@@ -33,10 +38,12 @@ const Buttons = () => {
           <b className="relative">New orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-center text-[3.75rem]">
-          <img
+          <Image
+            width={3.19}
+            height={3.19}
             className="self-stretch relative max-h-full w-[3.3rem]"
             alt=""
-            src={DashobardImagePath+"/vector17.svg"}
+            src={DashobardImagePath + "/vector17.svg"}
           />
           <div className="relative tracking-[1px] font-semibold">35</div>
         </div>

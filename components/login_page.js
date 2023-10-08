@@ -68,7 +68,7 @@ const LoginPage = () => {
                 height={61.44}
               />
             </div>
-            <div className="relative leading-[1.25rem] text-peru uppercase font-semibold">
+            <div className="relative leading-[1.25rem] text-main uppercase font-semibold">
               Login with google
             </div>
           </div>

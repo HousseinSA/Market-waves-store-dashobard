@@ -1,3 +1,4 @@
+import Image from "next/image"
 const RecentActivity = () => {
   const DashobardImagePath = "/dashboard_images"
   return (
@@ -12,9 +13,11 @@ const RecentActivity = () => {
         </div>
         <div className="self-stretch h-[2.23rem] overflow-hidden shrink-0 flex flex-row items-center justify-center py-[0.94rem] px-[2rem] box-border gap-[1.56rem]">
           <div className="flex-1 flex flex-row items-center justify-start gap-[1.56rem]">
-            <img
+            <Image
               className="relative w-[1.25rem] h-[1.25rem] overflow-hidden shrink-0"
               alt=""
+              width={1.25}
+              height={1.25}
               src={DashobardImagePath + "/controls--checkbox--active.svg"}
             />
             <div className="relative tracking-[0.2px] leading-[1.25rem] font-semibold">
@@ -32,7 +35,9 @@ const RecentActivity = () => {
             <div className="flex-1 flex flex-row items-center justify-start gap-[1.63rem]">
               <div className="overflow-hidden flex flex-row items-center justify-start relative gap-[0.63rem]">
                 <div className="relative rounded-[50%] bg-accent-default w-[1.25rem] h-[1.25rem] z-[0]" />
-                <img
+                <Image
+                  width={1.25}
+                  height={1.25}
                   className="absolute my-0 mx-[!important] h-[43.29%] w-[58.5%] top-[30.75%] right-[20.75%] bottom-[25.96%] left-[20.75%] max-w-full overflow-hidden max-h-full z-[1]"
                   alt=""
                   src={DashobardImagePath + "/check.svg"}
@@ -48,7 +53,9 @@ const RecentActivity = () => {
               </div>
             </div>
           </div>
-          <img
+          <Image
+            width={1.25}
+            height={1.25}
             className="self-stretch relative max-w-full overflow-hidden h-[0.06rem] shrink-0"
             alt=""
             src={DashobardImagePath + "/divider--line--horizontal.svg"}
@@ -70,7 +77,9 @@ const RecentActivity = () => {
               </div>
             </div>
           </div>
-          <img
+          <Image
+            width={1.25}
+            height={1.25}
             className="self-stretch relative max-w-full overflow-hidden h-[0.06rem] shrink-0"
             alt=""
             src={DashobardImagePath + "/divider--line--horizontal1.svg"}
@@ -79,7 +88,9 @@ const RecentActivity = () => {
         <div className="self-stretch h-[2.23rem] flex flex-col items-center justify-center py-[0rem] px-[1.88rem] box-border">
           <div className="self-stretch flex-1 flex flex-row items-start justify-center gap-[2.25rem]">
             <div className="self-stretch flex-1 flex flex-row items-center justify-start gap-[2.25rem]">
-              <img
+              <Image
+                width={1.25}
+                height={1.25}
                 className="relative w-[1.25rem] h-[1.25rem] overflow-hidden shrink-0"
                 alt=""
                 src={DashobardImagePath + "/controls--checkbox--inactive.svg"}

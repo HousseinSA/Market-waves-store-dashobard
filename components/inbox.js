@@ -1,3 +1,4 @@
+import Image from "next/image"
 const Inbox = () => {
   const DashobardImagePath = "/dashboard_images"
 
@@ -13,7 +14,9 @@ const Inbox = () => {
         </div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center z-[2]">
-        <img
+        <Image
+          width={1}
+          height={1}
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
           src={DashobardImagePath + "/divider.svg"}
@@ -28,9 +31,11 @@ const Inbox = () => {
         </div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center z-[4]">
-        <img
+        <Image
           className="flex-1 relative max-w-full overflow-hidden h-[0.13rem]"
           alt=""
+          width={1}
+          height={1}
           src={DashobardImagePath + "/divider1.svg"}
         />
       </div>

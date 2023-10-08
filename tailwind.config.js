@@ -24,7 +24,7 @@ module.exports = {
         gray: "#fefefe",
         silver: "#b9b9b9",
         lightgray: "#dcd4ce",
-        peru: "#bf743b",
+        main: "#bf743b",
       },
       spacing: {},
       fontFamily: {

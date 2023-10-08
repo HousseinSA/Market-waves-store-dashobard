@@ -13,15 +13,17 @@ const Header = () => {
         <Image
           className="relative rounded-[50%] w-[3.13rem] h-[3.13rem] object-cover"
           alt=""
-          src={session.user.image}
+          src={session?.user.image}
           width={50}
           height={50}
         />
       </div>
-      <div className="w-[3.13rem] overflow-hidden shrink-0 hidden flex-col items-center justify-center py-[0.63rem] px-[0rem] box-border md:hidden sm:flex mq666:flex">
-        <img
+      <div className="w-[3.13rem] overflow-hidden shrink-0 hidden flex-col items-center justify-center py-[0.63rem] px-[0rem] box-border md:flex sm:flex mq666:flex">
+        <Image
           className="relative w-[3.13rem] h-[2.25rem]"
           alt=""
+          width={3.14}
+          height={3.14}
           src={DashobardImagePath + "/vector15.svg"}
         />
       </div>
