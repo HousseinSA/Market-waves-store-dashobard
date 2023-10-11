@@ -8,7 +8,7 @@ const products = () => {
     fetch("/api/products", {
       method: "GET",
     })
-      .then((res) => res.json())b
+      .then((res) => res.json())
       .then((data) => setProducts(data))
   })
   console.log(products)
