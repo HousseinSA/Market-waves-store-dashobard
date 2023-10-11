@@ -4,9 +4,9 @@ import {signOut} from "next-auth/react"
 const Sidenav = () => {
   const DashobardImagePath = "/dashboard_images"
   return (
-    <div className="flex flex-col items-center justify-start py-[0rem] px-[0.63rem] gap-[4.06rem] text-left text-[0.88rem] text-peru font-poppins md:flex md:flex-1 md:items-center md:justify-start md:pt-[6.25rem] md:box-border mq666:self-stretch mq666:w-auto mq666:h-auto mq666:items-center mq666:justify-center">
+    <div className="flex flex-col items-center justify-start py-[0rem] px-[0.63rem] gap-[4.06rem] text-left text-[0.88rem] text-main font-poppins md:flex md:flex-1 md:items-center md:justify-start md:pt-[6.25rem] md:box-border mq666:self-stretch mq666:w-auto mq666:h-auto mq666:items-center mq666:justify-center">
       <Image
-        onClick={() => signOut()}
+        onClick={() => signOut('google')}
         className="relative  w-[2.15rem] h-[2.6rem]"
         alt=""
         src={DashobardImagePath + "/vector.svg"}
@@ -47,7 +47,7 @@ const Sidenav = () => {
           height={2.14}
         />
         <div className="flex-1 relative font-medium">
-          <Link href={"/products"}>products</Link>
+          <Link href={"/products"}>Products</Link>
         </div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center gap-[0.63rem]">
@@ -63,8 +63,8 @@ const Sidenav = () => {
         </div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center relative gap-[0.63rem] text-[0.75rem] ">
-        <div className="rounded-3xs  h-[2.19rem] overflow-hidden z-[0]" />
-        <div className="my-0 mx-[!important] absolute top-[calc(50%_-_8.5px)] left-[calc(50%_-_51.78px)] w-[6.46rem] flex flex-row items-start justify-start gap-[0.19rem] z-[1]">
+        <div className="rounded-3xs h-[2.19rem] overflow-hidden z-[0]" />
+        <div className="my-0 bg-ghostwhite-100 p-2 pl-0 rounded-lg mx-[!important] absolute top-[calc(50%_-_8.5px)] left-[calc(50%_-_51.78px)] w-[6.46rem] flex flex-row items-start justify-start gap-[0.19rem] z-[1]">
           <div className="flex-1 flex flex-col items-start justify-start relative gap-[0.63rem]">
             <Image
               className="relative w-[1.15rem] h-[1.13rem] z-[0]"

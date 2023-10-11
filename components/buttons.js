@@ -41,7 +41,7 @@ const Buttons = () => {
           <Image
             width={3.19}
             height={3.19}
-            className="self-stretch relative max-h-full w-[3.3rem]"
+            className="relative w-[2.97rem] h-[3.85rem]"
             alt=""
             src={DashobardImagePath + "/vector17.svg"}
           />

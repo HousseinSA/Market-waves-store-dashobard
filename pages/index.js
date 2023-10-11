@@ -6,8 +6,7 @@ import LoginPage from "../components/login_page"
 import {useSession} from "next-auth/react"
 const Desktop = () => {
   const {data: session} = useSession()
-
-  if (session) {
+  if (!session) {
     return (
       <Layout>
         <Buttons />
