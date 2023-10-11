@@ -1,6 +1,6 @@
 const Sidenav = () => {
   return (
-    <div className="flex flex-col items-center justify-start py-[0rem] px-[0.63rem] gap-[4.06rem] text-left text-[0.88rem] text-peru font-poppins mq666:self-stretch mq666:w-auto mq666:h-auto mq666:items-center mq666:justify-center">
+    <div className="flex flex-col items-center justify-start py-[0rem] px-[0.63rem] gap-[4.06rem] text-left text-[0.88rem] text-peru font-poppins md:gap-[4.06rem] md:items-center md:justify-center md:pl-[0rem] md:pt-[5rem] md:box-border mq666:hidden mq666:self-stretch mq666:w-auto mq666:h-auto mq666:gap-[4.06rem] mq666:items-center mq666:justify-center mq666:pl-[3.25rem] mq666:pt-[0rem] mq666:box-border">
       <img
         className="relative w-[2.15rem] h-[2.6rem]"
         alt=""
@@ -12,9 +12,7 @@ const Sidenav = () => {
           alt=""
           src="/vector1.svg"
         />
-        <div className="flex-1 relative font-medium md:hidden md:hover:flex">
-          Dashboard
-        </div>
+        <div className="flex-1 relative font-medium md:hidden">Dashboard</div>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center gap-[0.63rem]">
         <img

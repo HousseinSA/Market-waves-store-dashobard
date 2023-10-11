@@ -8,13 +8,13 @@ const Buttons = () => {
           <b className="relative">Shipped orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-center text-[3.75rem]">
-          <Image
-            width={3.19}
-            height={3.19}
-            className="relative w-[3.34rem] h-[2.65rem]"
-            alt=""
-            src={DashobardImagePath + "/vector14.svg"}
-          />
+          <div className="flex flex-row items-start justify-start">
+            <img
+              className="relative w-[3.48rem] h-[3.84rem]"
+              alt=""
+              src="/vector10.svg"
+            />
+          </div>
           <div className="relative tracking-[1px] font-semibold">67</div>
         </div>
       </div>
@@ -23,13 +23,13 @@ const Buttons = () => {
           <b className="relative">Pending orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-right text-[3.75rem]">
-          <Image
-            width={3.19}
-            height={3.19}
-            className="relative w-[2.97rem] h-[3.85rem]"
-            alt=""
-            src={DashobardImagePath + "/vector16.svg"}
-          />
+          <div className="flex flex-row items-start justify-start">
+            <img
+              className="relative w-[3.26rem] h-[3.91rem]"
+              alt=""
+              src="/vector11.svg"
+            />
+          </div>
           <div className="relative tracking-[1px] font-semibold">09</div>
         </div>
       </div>
@@ -38,13 +38,15 @@ const Buttons = () => {
           <b className="relative">New orders</b>
         </div>
         <div className="self-stretch h-[3.19rem] flex flex-row items-center justify-between text-center text-[3.75rem]">
-          <Image
-            width={3.19}
-            height={3.19}
-            className="relative w-[2.97rem] h-[3.85rem]"
-            alt=""
-            src={DashobardImagePath + "/vector17.svg"}
-          />
+          <div className="flex flex-row items-start justify-start">
+            <div className="flex flex-row items-start justify-end">
+              <img
+                className="relative w-[3.73rem] h-[3.8rem]"
+                alt=""
+                src="/vector12.svg"
+              />
+            </div>
+          </div>
           <div className="relative tracking-[1px] font-semibold">35</div>
         </div>
       </div>

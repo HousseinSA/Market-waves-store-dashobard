@@ -4,7 +4,7 @@ const Header = () => {
   const DashobardImagePath = "/dashboard_images"
   const {data: session} = useSession()
   return (
-    <div className="self-stretch flex flex-row items-center justify-between py-[0.5rem] px-[0rem] text-left text-[1rem] text-black font-poppins sm:flex mq666:gap-[0.31rem]">
+    <div className="self-stretch flex flex-row items-center justify-between text-left text-[1rem] text-black font-poppins sm:flex mq666:gap-[0.31rem]">
       <div className="flex flex-col items-start justify-center">
         <div className="relative">total balance</div>
         <div className="relative text-[1.75rem] font-semibold">$ 45,365.00</div>
